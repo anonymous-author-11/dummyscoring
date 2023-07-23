@@ -69,7 +69,7 @@ dummy_score(
 A list with elements 'scores,' 'original.loadings,' and 'extension.loadings.' The factor scores for every observation are contained in 'scores.' The loadings of the core variables are in 'original.loadings' and the category loadings of the scoring variables are in 'extension.loadings'
 }
 \description{
-Scores a matrix or dataframe on latent factors, using Dummy Extension Scoring (Keenan, 2023). The factors to be scored can either be provided in the form of a psych::fa object, or a matrix of factor loadings. Alternatively, if only a data matrix is provided, a factor analysis will be performed using parameters passed by '...' The user can select 'core.variables' to be factored, and also 'scoring.variables' to be used in the scoring step. The 'scoring.variables' can include factored variables, variables not factored, or any combination thereof.
+Scores a matrix or dataframe on latent factors, using Dummy Extension Scoring (\<redacted\>, 2023). The factors to be scored can either be provided in the form of a psych::fa object, or a matrix of factor loadings. Alternatively, if only a data matrix is provided, a factor analysis will be performed using parameters passed by '...' The user can select 'core.variables' to be factored, and also 'scoring.variables' to be used in the scoring step. The 'scoring.variables' can include factored variables, variables not factored, or any combination thereof.
 }
 \examples{
 \dontrun{big.five.scores <- dummy_score(data = bigfive, method = 'Bartlett')$scores}
